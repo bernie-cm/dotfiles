@@ -49,7 +49,7 @@ set incsearch   " Incremental search (shows results as you type)
 set mouse=a
 
 " Enable clipboard integration (copy-paste between Vim & system clipboard)
-set clipboard=unnamedplus
+" set clipboard=unnamedplus
 
 " Set indentation (4 spaces per tab)
 set tabstop=4
@@ -65,10 +65,6 @@ set cmdheight=2
 set noswapfile
 set nobackup
 set nowritebackup
-
-" Enable persistent undo (undo even after closing Vim)
-set undofile
-set undodir=~/.vim/undodir
 
 " Faster redrawing (improves performance)
 set lazyredraw
@@ -101,4 +97,3 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
-
