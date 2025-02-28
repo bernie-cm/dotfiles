@@ -34,7 +34,7 @@ set number
 set mouse=a
 
 " Enable relative line number
-" set relativenumber
+set relativenumber
 
 " Highlight matching brackets
 set showmatch
