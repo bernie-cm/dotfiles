@@ -121,7 +121,7 @@ function gpush() {
     git commit -m "$msg"
     git push
 }
-
+# This creates an alias for kubectl
 alias k=kubectl
 
 # This will enable autocomplete for kubectl
